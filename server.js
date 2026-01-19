@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 // Allowed origins for CORS
 const allowedOrigins = [
     'http://localhost:3000',
-    process.env.fixfront - ecru.vercel.app, // Vercel URL will be set here
+    process.env.fixfront-ecru.vercel.app, // Vercel URL will be set here
 ].filter(Boolean);
 
 // Middleware
